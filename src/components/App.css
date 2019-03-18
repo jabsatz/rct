@@ -1,0 +1,32 @@
+.navigation {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	height: 5%;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+.navigation-button {
+	padding: 10px 0;
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border-right: 1px solid black;
+	color: black;
+	transition: color 1000ms ease-in-out;
+}
+
+.navigation-button:focus {
+	color: blue;
+}
+
+.navigation-button:first-child {
+	border-left: 1px solid black;
+}
+
+.app {
+	margin: 30px 10%;
+}
